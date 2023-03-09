@@ -8,7 +8,7 @@ const FILES = {
     COMPRESSED_FILE: "./data/sample.zst"
 }
 
-const dictBuffer = fs.readFileSync("./data/zstd_dictionary.dict");
+const dictBuffer = fs.readFileSync(FILES.DICT);
 
 const app = new Koa()
 
